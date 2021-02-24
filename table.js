@@ -34,8 +34,10 @@ postData('https://api.sandbox.polymerize.io/v1/data/_get_plot', { "company_id": 
     elements.map(item => {
       heading.appendChild(item);
     })
+    
+    const length = Object.keys(result[titles[0]]).length;
     myTable.appendChild(heading);
-    for (let i = 0;i<46;i++) {
+    for (let i = 0;i<length;i++) {
       let dataHeading = document.createElement("tr");
       titles.map(item => {
         let tempTd = document.createElement("td");
