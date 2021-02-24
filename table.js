@@ -47,16 +47,3 @@ postData('https://api.sandbox.polymerize.io/v1/data/_get_plot', { "company_id": 
       myTable.appendChild(dataHeading);
     }    
 });
-
-    // return result;
-    // detailedData = Object.entries(result).slice(1);
-    // console.log(result);
-    // titles = Object.entries(result).slice(1).map(item => item[0]);
-    
-    // console.log(titles);
-    // for (let i =0; i<Object.keys(result["layer_height"]).length;i++){
-    //     titles.forEach((title)=>{
-    //         console.log(result[title][i]);
-    //     })
-    // }
-
